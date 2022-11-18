@@ -9,8 +9,11 @@ body {
     flex-grow: 1;
   }
   @media screen and (min-width : 600px) { 
-    .buttons .text { 
-      display: none;
+    button .text { 
+      display: block;
     } 
+    body{
+      flex-direction: column;
+    }
   }
   
